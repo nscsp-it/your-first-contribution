@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github Session Tueday @ 7 pm 
+          Github Session Tueday @ 7 pm  . Testing  ... 
         </a>
       </header>
     </div>
