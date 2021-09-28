@@ -1,30 +1,31 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
+import { v4 as uuidv4 } from 'uuid';
 
 const columns = [
-  { field: 'id', headerName: 'ID', width: 90 },
+  { field: 'id', headerName: 'ID', width: 300 },
   {
     field: 'firstName',
     headerName: 'First name',
-    width: 150,
+    width: 250,
     editable: true,
   },
   {
     field: 'lastName',
     headerName: 'Last name',
-    width: 150,
+    width: 250,
     editable: true,
   },
   {
     field: 'country',
     headerName: 'Country',
-    width: 110,
+    width: 250,
     editable: true,
   },
   {
     field: 'ftc',
     headerName: 'First time contributor ? ',
-    width: 200,
+    width: 250,
     editable: true,
   },
   {
@@ -32,7 +33,7 @@ const columns = [
     headerName: 'Full name',
     description: 'This column has a value getter and is not sortable.',
     sortable: false,
-    width: 160,
+    width: 250,
     valueGetter: (params) =>
       `${params.getValue(params.id, 'firstName') || ''} ${
         params.getValue(params.id, 'lastName') || ''
@@ -41,8 +42,8 @@ const columns = [
 ];
 
 const rows = [
-  { id: 1, lastName: 'Adhikari', firstName: 'Andrew',country: 'United States', ftc: 'no' },
-  { id: 2, lastName: 'Baidya', firstName: 'Josep',country: 'United States', ftc: 'yes' }
+  { id: uuidv4(), lastName: 'Adhikari', firstName: 'Andrew',country: 'United States', ftc: 'no' },
+  { id: uuidv4(), lastName: 'Baidya', firstName: 'Josep',country: 'United States', ftc: 'yes' }
  
 ];
 
