@@ -3,10 +3,9 @@ import MaterialTable from 'material-table'
 
 export const Table=()=>{
     const data = [
-        {name: 'Ramesh', age:12},
-        {name: 'Harry', age:13},
-        {name: 'Kevin', age:15},
-        {name: 'Smith', age:15},
+        {name: 'Andrew', fc: 'yes'},
+        {name: 'Johny', fc: 'no'}
+        
     ]
 
     const columns=[
@@ -14,11 +13,11 @@ export const Table=()=>{
             title: 'Name', field: 'name'
         },
         {
-            title: 'Age' , field: 'age'
+            title: 'First contirbution ? ' , field: 'fc'
         }
     ]
     return <div>
-        <MaterialTable title="Material Table"
+        <MaterialTable title=""
         
         data = {data}
         columns={columns}
