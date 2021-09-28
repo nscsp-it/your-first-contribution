@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github Session Tueday @ 7 pm 
         </a>
       </header>
     </div>
