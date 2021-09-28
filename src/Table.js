@@ -43,7 +43,8 @@ const columns = [
 
 const rows = [
   { id: uuidv4(), lastName: 'Adhikari', firstName: 'Andrew',country: 'United States', ftc: 'no' },
-  { id: uuidv4(), lastName: 'Baidya', firstName: 'Josep',country: 'United States', ftc: 'yes' }
+  { id: uuidv4(), lastName: 'Baidya', firstName: 'Josep',country: 'United States', ftc: 'yes' },
+  { id: uuidv4(), lastName: 'World', firstName: 'Hello',country: 'United States', ftc: 'yes' }
  
 ];
 
