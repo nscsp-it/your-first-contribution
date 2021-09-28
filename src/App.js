@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to your-first-contribution Github Page 👋 </h1>
+        <h1>Welcome to NSCSP your-first-contribution Github Page 👋 </h1>
         <DataGridDemo></DataGridDemo>
       </div>
     );
