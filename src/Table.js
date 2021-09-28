@@ -53,7 +53,7 @@ export const DataGridDemo=()=> {
         rows={rows}
         columns={columns}
         pageSize={10}
-        rowsPerPageOptions={[10]}
+        rowsPerPageOptions={[5]}
         checkboxSelection
         disableSelectionOnClick
       />
