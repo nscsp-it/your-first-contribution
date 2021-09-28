@@ -24,7 +24,7 @@ const columns = [
   {
     field: 'ftc',
     headerName: 'First time contributor ? ',
-    width: 110,
+    width: 200,
     editable: true,
   },
   {
