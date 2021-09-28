@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Table } from './Table';
+import { DataGridDemo } from './Table';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Welcome to your-first-contribution Github Page 👋 </h1>
-        <Table></Table>
+        <DataGridDemo></DataGridDemo>
       </div>
     );
   }
