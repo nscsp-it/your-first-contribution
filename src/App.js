@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to LOADDDDDD
         </p>
         <a
           className="App-link"
@@ -15,9 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github Session Tueday @ 7 pm  . Testing  ... 
-          New tests 
-          Andrew 
+          Github Session Tueday @ 7 pm . 
+     
         </a>
       </header>
     </div>
