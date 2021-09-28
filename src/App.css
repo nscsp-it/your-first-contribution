@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+body{
+  background-color:whitesmoke;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
 }

@@ -25,7 +25,7 @@ const columns = [
   {
     field: 'ftc',
     headerName: 'First time contributor ? ',
-    width: 250,
+    width: 200,
     editable: true,
   },
   {
@@ -33,7 +33,7 @@ const columns = [
     headerName: 'Full name',
     description: 'This column has a value getter and is not sortable.',
     sortable: false,
-    width: 250,
+    width: 200,
     valueGetter: (params) =>
       `${params.getValue(params.id, 'firstName') || ''} ${
         params.getValue(params.id, 'lastName') || ''
