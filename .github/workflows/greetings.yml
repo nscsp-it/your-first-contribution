@@ -1,14 +1,22 @@
 name: Greetings
 
-on: [pull_request, issues]
+on:
+  issues:
+    types: [opened]
 
 jobs:
-  greeting:
+  comment_on_new_issue:
     runs-on: ubuntu-latest
-    
+    name: Job for commenting on new issue
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-       repo-token: ${{ secrets.GITHUB_TOKEN }}
-         issue-message:'Hello @${{ github.actor }} , thank you for submitting an issue!'
-         pr-message:'Hello @${{ github.actor }} , thank you submitting a pull request!'
+      - name: Comment
+        uses: jd-0001/gh-action-comment-on-new-issue@v2.0.3
+        with:
+          message: 'Hello @${{ github.actor }} , thank you for submitting an issue!'
+          ignore-label: 'internal'
+
+       
+       
+       
+       
+     
