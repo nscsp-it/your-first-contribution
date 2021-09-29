@@ -46,7 +46,7 @@ const rows = [
   { id: uuidv4(), lastName: 'Baidya', firstName: 'Josep',country: 'United States', ftc: 'yes' },
   { id: uuidv4(), lastName: 'World', firstName: 'Hello',country: 'United States', ftc: 'yes' },
   { id: uuidv4(), lastName: 'World-2', firstName: 'Hello-2',country: 'Mexico', ftc: 'no' }
- 
+  { id: uuidv4(), lastName: 'Thapa Magar', firstName: 'Aashish',country: 'United States', ftc: 'yes' }
 ];
 
 export const DataGridDemo=()=> {
