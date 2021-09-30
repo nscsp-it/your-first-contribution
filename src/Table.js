@@ -7,19 +7,19 @@ const columns = [
   {
     field: 'firstName',
     headerName: 'First name',
-    width: 250,
+    width: 200,
     editable: true,
   },
   {
     field: 'lastName',
     headerName: 'Last name',
-    width: 250,
+    width: 200,
     editable: true,
   },
   {
     field: 'country',
     headerName: 'Country',
-    width: 250,
+    width: 200,
     editable: true,
   },
   {
@@ -41,6 +41,7 @@ const columns = [
   },
 ];
 
+
 const rows = [
   { id: uuidv4(), lastName: 'Adhikari', firstName: 'Andrew',country: 'United States', ftc: 'no' },
   { id: uuidv4(), lastName: 'Baidya', firstName: 'Josep',country: 'United States', ftc: 'yes' },
@@ -51,12 +52,12 @@ const rows = [
 
 export const DataGridDemo=()=> {
   return (
-   <div className = "centered"> 
-         <div style={{ height: 800 , width: '100%'}}>
+   <div className = "table"> 
+      <div style={{ height: 500}}>
       <DataGrid
         rows={rows}
         columns={columns}
-        pageSize={10}
+        pageSize={7}
         rowsPerPageOptions={[5]}
         checkboxSelection
         disableSelectionOnClick

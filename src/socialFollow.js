@@ -11,14 +11,14 @@ export const SocialFollow=()=> {
     <div class="social-container">
       <h3>Social Follow</h3>
         <a href="https://www.facebook.com/nscsp.us/"
-       className="facebook social">
+       className="facebook social"  target="_blank"  rel="noreferrer">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
        </a>
-        <a href="https://www.twitter.com/nscspi" className="twitter social">
+        <a href="https://www.twitter.com/nscspi" className="twitter social"  target="_blank"  rel="noreferrer" > 
         <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
         <a href="https://www.instagram.com/nscsp.us"
-         className="instagram social">
+         className="instagram social"  target="_blank"  rel="noreferrer">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
     </div>
