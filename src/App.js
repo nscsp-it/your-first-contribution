@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { DataGridDemo } from './Table';
-import { SocialFollow } from "./socialFollow";
+import { DataGridDemo } from './components/Table.js';
+import { SocialFollow } from './components/socialFollow.js';
 
 import './App.css';
 
