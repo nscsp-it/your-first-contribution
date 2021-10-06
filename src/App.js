@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <div className = "h1" >
 
-				<h1>Welcome to NSCSP your-first-contribution Github Page 👋 </h1>
+				<h1>Welcome to NSCSP your-first-contribution Github Page Tested with Netfify 1 👋 </h1>
 					
 				</div>
         
