@@ -62,7 +62,7 @@ Step 5: Add the changes in the stagging area
 
 Step 6: Commit those changes in the branch with a message
 
-> `git commit -m < your message > '
+> `git commit -m < your message > `
 
 Step 7: checkout into the master branch
 
