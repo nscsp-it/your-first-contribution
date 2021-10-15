@@ -52,7 +52,7 @@ Step 2: clone the repository into the folder you want
 
 Step 3: create a branch in local repository to work on the task.
 
-> `git checkout <branch_name> -b`
+> `git checkout -b <branch_name>`
 
 Step 4: Go to the file you want to make changes.
 
