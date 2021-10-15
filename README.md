@@ -1,14 +1,7 @@
 # Your first contribution - NSCSP IT CONNEXION
 
-## Feel free to browse in this demo repository that contains a sample react application. 
 
-## New changes coming soon !
-
-This page is actively maintained by following contributors
-
-
-
-
+## New changes coming soon!
 
 ### Contributors
 
@@ -53,3 +46,38 @@ This page is actively maintained by following contributors
 </table>
 
 
+## Steps followed from forking to pushing:
+
+Step 1: Go to your terminal (if you are using Mac) and initialize git
+
+> ` git init`
+
+Step 2: clone the repository into the folder you want
+
+> `git clone < the link for the repository > `
+
+Step 3: create a branch in local repository to work on the task.
+
+> `git checkout -b <branch_name>`
+
+Step 4: Go to the file you want to make changes.
+
+Step 5: Add the changes in the stagging area
+
+> `git add .`
+
+Step 6: Commit those changes in the branch with a message
+
+> `git commit -m < your message > `
+
+Step 7: checkout into the master branch
+
+> `git checkout master`
+
+Step 8: merge the branch you made changes.
+
+> `git merge < branch name> `
+
+Step 9: then you can push the changes into the main repository.
+
+> `git push`
